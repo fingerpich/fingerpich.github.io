@@ -2,29 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b3be47e-2353-4a91-83bf-758ae8db71a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/inline.9de6bb0f9a4554b6b1e2.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/main.86f3e0dc2a13255fc99c.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/polyfills.18173234f9641113b9fe.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/styles.71e1a7f0107e16d5b61e.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/vendor.ab2a8345bff1ef29ca58.bundle.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/main.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/main.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/polyfills.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/polyfills.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/styles.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/styles.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/vendor.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jalali-angular-datepicker/index.html" afterPath="$PROJECT_DIR$/jalali-angular-datepicker/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/models/calendar.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/models/date.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/types/calendar-value.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/types/week-days.type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/types/poistions.type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/types/calendar-type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/day-calendar/day.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/day-calendar/day-calendar.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/day-calendar/day-calendar-config.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/day-calendar/day-calendar.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/month-calendar/month.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/month-calendar/month-calendar-config.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/date-picker/date-picker-config.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/date-picker/date-picker.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/date-picker/date-picker.api.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/date-picker/date-picker.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/services/utils/utils.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/demo/demo/demo.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/src/app/common/services/dom-appender/dom-appender.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker-config.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.api.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar-config.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/month-calendar/month.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/month-calendar/month-calendar-config.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/demo/demo/demo.component.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/calendar-value.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/week-days.type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/poistions.type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/calendar-type.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/models/calendar.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/models/date.model.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/services/utils/utils.service.js/" />
+    <ignored path="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/services/dom-appender/dom-appender.service.js/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="464">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,6 +128,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fingerpich.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fingerpich.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jalali-angular-datepicker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -125,6 +150,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -166,6 +193,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -200,16 +233,17 @@
       <option name="presentableId" value="Default" />
       <updated>1493463773251</updated>
       <workItem from="1493463775118" duration="2016000" />
-      <workItem from="1493466738499" duration="891000" />
+      <workItem from="1493466738499" duration="2285000" />
+      <workItem from="1493533279247" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2907000" />
+    <option name="totallyTimeSpent" value="4389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -255,6 +289,25 @@
         <option value="$PROJECT_DIR$/../angular-datepicker/src/app/common/services/utils/utils.service.js" />
         <option value="$PROJECT_DIR$/../angular-datepicker/src/app/demo/demo/demo.component.js" />
         <option value="$PROJECT_DIR$/../angular-datepicker/src/app/common/services/dom-appender/dom-appender.service.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker-config.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.service.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.api.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/date-picker/date-picker.component.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar.component.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar-config.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/day-calendar/day-calendar.service.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/month-calendar/month.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/month-calendar/month-calendar-config.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/demo/demo/demo.component.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/calendar-value.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/week-days.type.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/poistions.type.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/types/calendar-type.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/models/calendar.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/models/date.model.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/services/utils/utils.service.js" />
+        <option value="$PROJECT_DIR$/../angular-datepicker/prebuild/app/common/services/dom-appender/dom-appender.service.js" />
       </list>
     </option>
   </component>
@@ -266,6 +319,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spiro3d/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -282,19 +351,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js">
+    <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/inline.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="23" lean-forward="false" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -308,16 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jalali-angular-datepicker/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="464">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
