@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>fingerpich</title>
+    <meta charset="utf-8">
+    <meta name="description" content="its personal webpage">
+    <meta name="keywords" content="Fingerpich, mojtaba, zarei, mojtaba zarei">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
     <style>
         body{
             position: fixed;
             width: 100%;
             text-align: center;
             height: 100%;
-            background: #777;
+            background: #333;
             margin: 0;
         }
         h1.myName{
@@ -20,48 +26,63 @@
         }
         h3.userName{
             margin: 0;
-            color: #444444;
+            color: #fff;
             font-size: 1.618rem;
             font-family: monospace;
+            text-shadow: 0 0 10px #fff;
         }
-        .questionContainer{
+        .quotes{
             position: absolute;
-            width: 100%;
             top: 50%;
-            margin: -50px 0;
-        }
-        .question{
+            left: 50%;
+            margin: -105px -150px;
+            width: 300px;
             font-size: 1.6rem;
-            color: #fff;
-            margin: 0 0 2.6rem;
+            color: #eee;
         }
-        button{
-            background: rgb(255, 255, 255);
-            border: none;
-            padding: 17px 0;
-            border-radius: 3px;
+        .links{
+            position: fixed;
+            bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            margin: 0 -150px;
+            left: 50%;
+            overflow: hidden;
+            border-radius: 9px;
+        }
+        .links a{
+            background: #fff;
             width: 100px;
-            height: 61px;
-            margin: 5px;
-            font-family: cursive;
+            flex: 1 1 auto;
+            padding: 10px 5px;
+            display: block;
+            color: #000;
+            font-size: 12px;
+            text-align: center;
+            font-family: monospace;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
         }
-        button.default{
-            box-shadow: 0 0 25px #fff;
+        .links a:hover{
+            background: none;
+            color: #fff;
         }
     </style>
 </head>
 <body>
     <h1 class="myName">Mojtaba Zarei</h1>
     <h3 class="userName">Fingerpich</h3>
-
-    <div class="questionContainer">
-        <div class="question">
-            Question?
-        </div>
-        <div class="actions">
-            <button class="default">Yes</button>
-            <button>No</button>
-        </div>
+    <div class="links">
+        <a href="https://stackoverflow.com/story/mojtabazarei">Stackoverflow</a>
+        <a href="github.com/fingerpich">Github</a>
+        <a href="https://www.linkedin.com/in/mojtaba-zarei-34790054">Linkedin</a>
+    </div>
+    <div class="quotes">
+        <span>An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you. Inception 2010</span>
+        <br>
+        <span>. . .</span>
     </div>
 </body>
 </html>

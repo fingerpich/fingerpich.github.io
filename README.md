@@ -1,3 +1,1 @@
-Its my personal page.
-
-I have decided to make a very simple page which is useful and amazement.
+Its my personal page. [welcome](https://fingerpich.github.io)
