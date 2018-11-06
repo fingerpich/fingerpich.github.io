@@ -8,39 +8,67 @@
     <meta name="keywords" content="Fingerpich, Mojtaba, Zarei, مجتبی زارعی , Mojtaba Zarei, ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
     <style>
+      html{
+        font-size: 14px;
+      }
+      @media only screen and (min-width: 600px) {
+        html{
+          font-size: 16px;
+        }
+      }
+
+      @media only screen and (min-width: 900px) {
+        html {
+          font-size: 17px;
+        }
+      }
+
+      @media only screen and (min-width: 1400px) {
+        html {
+          font-size: 20px;
+        }
+      }
+      code{
+        display: block;
+      }
         body{
             position: fixed;
             width: 100%;
             text-align: center;
             height: 100%;
-            background: #333333;
+            /*background: #cc9928;*/
+            background: #ff9900;
+          color: #000;
             margin: 0;
+        }
+        .myPhoto{
+          width: 4rem;
         }
         h1.my-name{
             font-size: 1rem;
             font-family: monospace;
-            color: #aaaaaa;
             margin: 1.6rem 0 0;
         }
-        h3.display-name{
-            margin: 0;
+        h3.display-name {
+            margin: 1rem;
             color: #ffffff;
             font-size: 1.618rem;
             font-family: monospace;
-            /*text-shadow: 0 0 10px #fff;*/
+            text-shadow: 0 0 10px #fff;
         }
-        .quotes{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin: -105px -150px;
-            width: 300px;
-            font-size: 18px;
-            color: #eeeeee;
+
+        .thoughtsAndMe{
+          max-width: 300px;
+          margin: auto;
         }
-        .links{
+        code{
+          vertical-align: top;
+        }
+
+        .links {
             position: fixed;
             bottom: 10px;
             display: flex;
@@ -52,42 +80,70 @@
             border-radius: 3px;
         }
         .links a{
-            background: #444444;
-            width: 100px;
-            flex: 1 1 auto;
-            padding: 10px 5px;
-            display: block;
-            color: #dddddd;
-            font-size: 12px;
-            text-align: center;
-            font-family: monospace;
-            cursor: pointer;
+          flex: 1 1 auto;
+          padding: 10px 5px;
+          display: block;
+          color: #000000;
+          font-size: 3rem;
             transition: all 0.3s ease;
             text-decoration: none;
+          cursor: pointer;
         }
         .links a:hover{
-            background: none;
             color: #ffffff;
+          margin-top: -0.6rem;
         }
     </style>
 </head>
 <body>
     <h1 class="my-name">Mojtaba Zarei</h1>
     <h3 class="display-name">Fingerpich</h3>
+    <div class="thoughtsAndMe">
+      <code>
+        let me help
+      </code>
+      <img class="myPhoto" src="./myphoto.png" alt="my photo">
+    </div>
     <div class="links">
-        <a href="https://stackoverflow.com/story/mojtabazarei">Stackoverflow</a>
-        <a href="https://github.com/fingerpich">Github</a>
-        <a href="https://www.linkedin.com/in/mojtaba-zarei-34790054">Linkedin</a>
+        <a href="https://stackoverflow.com/story/mojtabazarei"><i class="fab fa-stack-overflow"></i></a>
+        <a href="https://github.com/fingerpich"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mojtaba-zarei-34790054"><i class="fab fa-linkedin"></i></a>
+        <a href="https://web.telegram.org/#/im?p=@Fingerpich"><i class="fab fa-telegram"></i></a>
     </div>
-    <div class="quotes">
-        <span>An idea is &nbsp;&nbsp; like a virus,</span><br>
-        <span>resilient, highly contagious.</span><br>
-        <span>The smallest seed of an idea</span><br>
-        <span>can grow. It can grow to</span><br>
-        <span>define or destroy you.</span><br>
-        <span>Inception.2010</span><br>
-        <span>. . . . .</span><br>
-        <span>.</span><br>
-    </div>
+    <script>
+      function writeOvertime(text, time, postDelay, initText) {
+          var writtenText = initText || '';
+          // var interval = time * 1000 / text.length;
+          var interval = 50;
+          var letterIndex = writtenText.length;
+          return new Promise((resolve, reject) => {
+              var writeAletter = function () {
+                  var letter = text[letterIndex];
+                  writtenText += letter;
+                  document.getElementsByTagName('code')[0].textContent = writtenText;
+                  if (++letterIndex >= text.length) {
+                      setTimeout(resolve, postDelay * 1000);
+                  } else {
+                      setTimeout(writeAletter, (letter===' '? (interval * 6 * Math.random()) : interval));
+                  }
+              };
+              writeAletter();
+          });
+      }
+      async function runInOrder() {
+          await writeOvertime('Hi, I hope you are well', 1, 2);
+          await writeOvertime('I think background color is not suitable for you to read this text', 3, 2);
+          await writeOvertime('Let me change the background color', 5, 2);
+          await writeOvertime('window.body.style.backgroundColor = "red"', 5, 1);
+          document.body.style.backgroundColor = "red";
+          await writeOvertime('window.body.style.backgroundColor = "green"', 2, 1, "window.body.style.backgroundColor");
+          document.body.style.backgroundColor = "green";
+          await writeOvertime('window.body.style.backgroundColor = "blue"', 2, 1, "window.body.style.backgroundColor");
+          document.body.style.backgroundColor = "blue";
+          await writeOvertime('window.body.style.backgroundColor = "pink"', 2, 1, "window.body.style.backgroundColor");
+          document.body.style.backgroundColor = "pink";
+      }
+      runInOrder();
+    </script>
 </body>
 </html>
