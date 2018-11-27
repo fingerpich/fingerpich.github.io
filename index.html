@@ -8,7 +8,7 @@
     <meta name="keywords" content="Fingerpich, Mojtaba, Zarei, مجتبی زارعی , Mojtaba Zarei, ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
 
     <style>
       html{
@@ -45,19 +45,24 @@
             margin: 0;
         }
         .myPhoto{
+          z-index: 1;
           width: 4rem;
+          position: fixed;
+          bottom: -10px;
+          right: 10px;
         }
         h1.my-name{
-            font-size: 1rem;
-            font-family: monospace;
-            margin: 1.6rem 0 0;
+          font-size: 1.6rem;
+          font-family: monospace;
+          margin: 1.6rem 0 0;
+          color: #fff;
         }
         h3.display-name {
-            margin: 1rem;
-            color: #ffffff;
-            font-size: 1.618rem;
-            font-family: monospace;
-            text-shadow: 0 0 10px #fff;
+          margin: 1rem;
+          color: #ffffff;
+          font-size: 0.8rem;
+          font-family: monospace;
+          text-shadow: 0 0 10px #fff;
         }
 
         .thoughtsAndMe{
@@ -66,18 +71,34 @@
         }
         code{
           vertical-align: top;
+          color: #fff7;
         }
 
-        .links {
-            position: fixed;
-            bottom: 10px;
-            display: flex;
-            flex-direction: row;
-            width: 300px;
-            margin: 0 -150px;
-            left: 50%;
-            overflow: hidden;
-            border-radius: 3px;
+        /*.links {*/
+            /*position: fixed;*/
+            /*bottom: 10px;*/
+            /*display: flex;*/
+            /*flex-direction: row;*/
+            /*width: 300px;*/
+            /*margin: 0 -150px;*/
+            /*left: 50%;*/
+            /*overflow: hidden;*/
+            /*border-radius: 3px;*/
+        /*}*/
+        .links{
+          position: fixed;
+          bottom: 0;
+          display: flex;
+          flex-direction: row;
+          box-sizing: border-box;
+          width: 100%;
+          background: #ffd90078;
+          height: 10%;
+          /* margin: 0 -150px; */
+          padding: 0 100px;
+          left: 0;
+          overflow: hidden;
+          border-radius: 3px;
         }
         .links a{
           flex: 1 1 auto;
@@ -111,10 +132,10 @@
         <a href="https://web.telegram.org/#/im?p=@Fingerpich"><i class="fab fa-telegram"></i></a>
     </div>
     <script>
-      function writeOvertime(text, time, postDelay, initText) {
+      function writeOvertime(text, interval, postDelay, initText) {
           var writtenText = initText || '';
           // var interval = time * 1000 / text.length;
-          var interval = 50;
+          // var interval = interval;
           var letterIndex = writtenText.length;
           return new Promise((resolve, reject) => {
               var writeAletter = function () {
@@ -131,19 +152,24 @@
           });
       }
       async function runInOrder() {
-          await writeOvertime('Hi, I hope you are well', 1, 2);
-          await writeOvertime('I think background color is not suitable for you to read this text', 3, 2);
-          await writeOvertime('Let me change the background color', 5, 2);
-          await writeOvertime('window.body.style.backgroundColor = "red"', 5, 1);
+          await writeOvertime('Hi, I hope you are well', 50, 2);
+          await writeOvertime('I think background color is not suitable for you to read this text', 50, 2);
+          await writeOvertime('Let me change the background color', 50, 2);
+          await writeOvertime('window.body.style.backgroundColor = "red"', 50, 1);
           document.body.style.backgroundColor = "red";
-          await writeOvertime('window.body.style.backgroundColor = "green"', 2, 1, "window.body.style.backgroundColor");
+          await writeOvertime('window.body.style.backgroundColor = "green"', 50, 1, "window.body.style.backgroundColor");
           document.body.style.backgroundColor = "green";
-          await writeOvertime('window.body.style.backgroundColor = "blue"', 2, 1, "window.body.style.backgroundColor");
+          await writeOvertime('window.body.style.backgroundColor = "blue"', 50, 1, "window.body.style.backgroundColor");
           document.body.style.backgroundColor = "blue";
-          await writeOvertime('window.body.style.backgroundColor = "pink"', 2, 1, "window.body.style.backgroundColor");
+          await writeOvertime('window.body.style.backgroundColor = "pink"', 50, 1, "window.body.style.backgroundColor");
           document.body.style.backgroundColor = "pink";
+          await writeOvertime('window.body.style.backgroundColor = "brown"', 50, 1, "window.body.style.backgroundColor");
+          document.body.style.backgroundColor = "brown";
+          await writeOvertime('', 50, 1, "let me give you the ability to change background color");
       }
       runInOrder();
     </script>
+    <script async src="cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </body>
 </html>
