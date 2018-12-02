@@ -226,6 +226,7 @@
               handleMove(ev);
           }, false);
           document.body.addEventListener('mousemove', handleMove);
+          var finallyMoved;
           function handleMove(ev) {
               var x = ev.pageX;
               var y = ev.pageY;
@@ -238,6 +239,18 @@
               var g = Math.min(255, Math.max(0,(1 + Math.sin(px*Math.PI * 2 - 90)) / 2 * py * 255));
               var b = Math.min(255, Math.max(0,(1 + Math.sin(px*Math.PI * 2 - 180)) / 2 * py * 255));
               setColor(r, g, b);
+              if (!finallyMoved) {
+                  finallyMoved = setTimeout(() => {
+                      writeOvertime(`I am good at Developing optimized web application,
+                      using UI frameworks (Vuejs, React, Angular),
+                      using UI libraries (Rxjs, D3),
+                      writing test using (Karma, Jasmine, Mocha, Chai),
+                      using frontend tools (Webpack, Gulp, Browser tools),
+                      using frontend frameworks (Bootstrap, Material ui, Foundation)
+                      using node.js and mongodb. I love creating, biking, watching movies.
+                      `, 50, 1 );
+                  }, 5000)
+              }
           };
           await writeOvertime('Its done, move the cursor or drag on screen to change the color', 50, 1 );
       }
